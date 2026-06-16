@@ -66,7 +66,7 @@ src/
 | #   | Bloque                         | Entregable                                                                   | Estado |
 | --- | ------------------------------ | ---------------------------------------------------------------------------- | ------ |
 | 0   | Scaffold + tooling             | App arranca, fondo dark, nombre centrado, deploy en blanco a Vercel          | ✅     |
-| 1   | i18n ES/EN                     | Toggle idioma + persistencia localStorage + JSON estructurado vacío          | ⬜     |
+| 1   | i18n ES/EN                     | Toggle idioma + persistencia localStorage + JSON estructurado vacío          | ✅     |
 | 2   | Efecto cenital + RotatingPanel | Scene + useScrollProgress + panel giratorio glass, 3-4 dummies a 60fps móvil | ⬜     |
 | 3   | Hero / Sobre mí                | Sección real, nombre emergiendo, bio bilingüe                                | ⬜     |
 | 4   | Proyectos                      | data/projects.ts + grid de paneles, contenido real bilingüe, lazy-load       | ⬜     |
