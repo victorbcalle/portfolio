@@ -4,7 +4,25 @@
     "language": "Language",
     "subtitle": "Portfolio under construction"
   },
-  "hero": {},
+  "scene": {
+    "dummy": "Panel {{n}}",
+    "soon": "Coming soon",
+    "prev": "Previous section",
+    "next": "Next section"
+  },
+  "hero": {
+    "role": "Full-Stack Developer",
+    "title": "About me",
+    "bioLead": "I build end-to-end applications: API in Python/FastAPI, interface in React/TypeScript, data in PostgreSQL and AI integration — with real projects already in production.",
+    "bio": "Trained at 42 Málaga and currently studying the CFGS in Multiplatform Application Development (DAM), where I also work with Java, frontend development and other technologies. A habitual self-learner, I enjoy automating what others do by hand and I'm looking for a team to contribute to and grow with from day one.",
+    "meta": {
+      "location": { "label": "location", "value": "Málaga, Spain · On-site or remote" },
+      "education": { "label": "education", "value": "42 Málaga · CFGS DAM (CESUR)" },
+      "learning": { "label": "learning", "value": "Self-taught · peer-to-peer training at 42, no manuals or teachers" },
+      "languages": { "label": "languages", "value": "Spanish (native) · English (B2/C1) · French (A2)" },
+      "status": { "label": "status", "value": "Available · looking for work" }
+    }
+  },
   "projects": {},
   "stack": {},
   "contact": {}

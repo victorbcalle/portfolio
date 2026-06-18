@@ -5,7 +5,9 @@ export default {
     extend: {
       colors: {
         // Fondo base oscuro tipo "Apple dark": casi negro con un punto de azul/gris.
-        base: '#0a0a0c',
+        // OJO: no llamarlo `base` — colisiona con la utilidad de tamaño
+        // `text-base` de Tailwind y pisaría el color del texto.
+        night: '#0a0a0c',
         // Superficie glass: blanco a baja opacidad (combinar con backdrop-blur más adelante).
         surface: {
           glass: 'rgb(255 255 255 / 0.05)',
@@ -31,6 +33,18 @@ export default {
           'Helvetica Neue',
           'Arial',
           'sans-serif',
+        ],
+        // Cara de display/utilidad: identidad "terminal" del CV. Stack de
+        // monoespaciadas del sistema (SF Mono en Mac, Cascadia/Consolas en
+        // Windows) — cero dependencias y cero coste de red para Lighthouse.
+        mono: [
+          'ui-monospace',
+          'SFMono-Regular',
+          'SF Mono',
+          'JetBrains Mono',
+          'Menlo',
+          'Consolas',
+          'monospace',
         ],
       },
     },

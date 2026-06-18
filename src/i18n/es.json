@@ -4,7 +4,25 @@
     "language": "Idioma",
     "subtitle": "Portfolio en construcción"
   },
-  "hero": {},
+  "scene": {
+    "dummy": "Panel {{n}}",
+    "soon": "Próximamente",
+    "prev": "Sección anterior",
+    "next": "Sección siguiente"
+  },
+  "hero": {
+    "role": "Desarrollador Full-Stack",
+    "title": "Sobre mí",
+    "bioLead": "Construyo aplicaciones de extremo a extremo: API en Python/FastAPI, interfaz en React/TypeScript, datos en PostgreSQL e integración de IA — con proyectos reales ya en producción.",
+    "bio": "Formado en 42 Málaga y cursando el CFGS de Desarrollo de Aplicaciones Multiplataforma (DAM), donde trabajo además con Java, desarrollo frontend y otras tecnologías. Autodidacta por hábito, disfruto automatizando lo que otros hacen a mano y busco un equipo donde aportar y crecer desde el primer día.",
+    "meta": {
+      "location": { "label": "ubicación", "value": "Málaga, España · Presencial o remoto" },
+      "education": { "label": "formación", "value": "42 Málaga · CFGS DAM (CESUR)" },
+      "learning": { "label": "aprendizaje", "value": "Autodidacta · formación peer-to-peer en 42, sin manual ni profesor" },
+      "languages": { "label": "idiomas", "value": "Español (nativo) · Inglés (B2/C1) · Francés (A2)" },
+      "status": { "label": "estado", "value": "Disponible · buscando empleo" }
+    }
+  },
   "projects": {},
   "stack": {},
   "contact": {}

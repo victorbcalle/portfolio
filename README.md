@@ -46,7 +46,7 @@ npm run format   # Prettier sobre src y archivos raíz
 ```
 src/
   components/   Scene, RotatingPanel, Hero, Projects, Stack, Contact
-  hooks/        useScrollProgress, useReducedMotion
+  hooks/        useScrollProgress, useReducedMotion, useMediaQuery, useSmoothScroll
   data/         projects.ts (tipado)
   i18n/         es.json, en.json
   styles/
@@ -55,7 +55,7 @@ src/
 ### Tokens y accesibilidad (ya en sitio desde el Bloque 0)
 
 - **Tailwind**: tokens de paleta en [`tailwind.config.js`](tailwind.config.js)
-  (`bg-base`, `surface-glass`, `accent`, `ink`).
+  (`bg-night`, `surface-glass`, `accent`, `ink`).
 - **Accesibilidad**: hook [`useReducedMotion`](src/hooks/useReducedMotion.ts) y
   media queries base en [`src/styles/global.css`](src/styles/global.css) que
   respetan `prefers-reduced-motion`.
@@ -67,8 +67,8 @@ src/
 | --- | ------------------------------ | ---------------------------------------------------------------------------- | ------ |
 | 0   | Scaffold + tooling             | App arranca, fondo dark, nombre centrado, deploy en blanco a Vercel          | ✅     |
 | 1   | i18n ES/EN                     | Toggle idioma + persistencia localStorage + JSON estructurado vacío          | ✅     |
-| 2   | Efecto cenital + RotatingPanel | Scene + useScrollProgress + panel giratorio glass, 3-4 dummies a 60fps móvil | ⬜     |
-| 3   | Hero / Sobre mí                | Sección real, nombre emergiendo, bio bilingüe                                | ⬜     |
+| 2   | Efecto cenital + RotatingPanel | Scene + useScrollProgress + panel giratorio glass, 3-4 dummies a 60fps móvil | ✅     |
+| 3   | Hero / Sobre mí                | Sección real, nombre emergiendo, bio bilingüe                                | ✅     |
 | 4   | Proyectos                      | data/projects.ts + grid de paneles, contenido real bilingüe, lazy-load       | ⬜     |
 | 5   | Stack + Contacto               | Panel de tecnologías + CTA/links (GitHub, LinkedIn, email) + footer          | ⬜     |
 | 6   | Pulido + perf + SEO            | Lighthouse 90+, meta/OG, favicon, lang dinámico, code splitting              | ⬜     |
